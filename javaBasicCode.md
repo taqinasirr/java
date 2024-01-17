@@ -117,9 +117,17 @@ kita tetap nak run code tu even condition false
 ```
 <br>
 
-
+5 hari 9am-5pm
 ```java
+        for(int i=1; i<=5; i++)
+        {
+            System.out.println("Day " + i);
 
+            for(int j=1; j<=9; j++)
+            {
+                System.out.println("  " + (j+8) + "-" +(j+9));
+            }
+        }
 ```
 <br>
 
