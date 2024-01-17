@@ -42,9 +42,17 @@
 ```
 <br>
 
-
+cara baru tulis switch statement
 ```java
+        String day = "sunday";
 
+        switch(day)
+        {
+            case "saturday", "sunday" -> System.out.println("6am");
+            case "moday" -> System.out.println("8am");
+            default -> System.out.println("7am");
+        }
+        //6am
 ```
 <br>
 
