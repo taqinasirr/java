@@ -86,7 +86,7 @@ cara baru tulis switch statement
 ```
 <br>
 
-
+while
 ```java
         int i = 1;
 
