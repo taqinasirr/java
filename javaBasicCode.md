@@ -88,7 +88,17 @@ cara baru tulis switch statement
 
 
 ```java
+        int i = 1;
 
+        while (i<=2) {
+            System.out.println("Hi " + i);
+            i++;
+        }
+
+        System.out.println("Bye " + i);
+        //Hi 1
+        //Hi 2
+        //Bye 3
 ```
 <br>
 
