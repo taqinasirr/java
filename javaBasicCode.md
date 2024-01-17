@@ -102,9 +102,18 @@ cara baru tulis switch statement
 ```
 <br>
 
-nested while loop
+do while  
+kita tetap nak run code tu even condition false
 ```java
+    {
+        int i = 5;
 
+       do {
+        System.out.println("Hi " + i);
+        i++;
+       } while (i<=4);
+    }
+    //Hi 5
 ```
 <br>
 
