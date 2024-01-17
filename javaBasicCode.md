@@ -108,10 +108,10 @@ kita tetap nak run code tu even condition false
     {
         int i = 5;
 
-       do {
-        System.out.println("Hi " + i);
-        i++;
-       } while (i<=4);
+        do {
+            System.out.println("Hi " + i);
+            i++;
+        } while (i<=4);
     }
     //Hi 5
 ```
