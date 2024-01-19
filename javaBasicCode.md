@@ -166,9 +166,14 @@ class Demo
 ```
 <br>
 
-
+method wajib ada data type if return something  
+kalu void baru x yah buh data type sebab void = x return something
 ```java
-
+    public int add( int num1, int num2)
+    {
+        int result = num1 + num2;
+        return result;
+    }
 ```
 <br>
 
