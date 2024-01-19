@@ -131,9 +131,38 @@ kita tetap nak run code tu even condition false
 ```
 <br>
 
+**object**.    
+create object calc    
+calc boleh pakai methods dlm class Calculator  
+
 
 ```java
+class Calculator
+{
+    public int add(int num1, int num2)
+    {
+        int result = num1 + num2;
+        return result;
+    }
+}
 
+
+class Demo
+{
+    public static void main(String a[])
+    {
+        int num1=4;
+        int num2=5;
+
+        Calculator calc = new Calculator();
+
+        int result = calc.add(num1,num2);
+
+        System.out.println(result);
+
+    }
+}
+//9
 ```
 <br>
 
