@@ -32,4 +32,10 @@ java
   1. int  -1 0 1
   2. 
 
+<br>
+
+`JDK` `JRE` `JVM` 
+
+![JDK JRE JVM](https://github.com/taqinasirr/java/assets/21170527/24b131f6-3593-4789-bfb9-a327aeaccb2d)
+
 
