@@ -177,9 +177,41 @@ kalu void baru x yah buh data type sebab void = x return something
 ```
 <br>
 
-
+method overloading  
+method nama sama.   
+bil parameter beza.  
+if bil parameter sama, datatype wajib beza  (entah ler yg ni aku test jadi error)
 ```java
+class Calculator
+{
+    public int add( int num1, int num2, int num3)
+    {  
+        return num1 + num2 + num3;
+    }
+    public int add( int num1, int num2)
+    {
+        return num1 + num2;
+    }
+    
+}
 
+class Demo
+{
+    public static void main(String a[])
+    {
+        int num1 = 2;
+        int num2 = 2;
+        int num3 = 2;
+
+        Calculator calc = new Calculator();
+
+        int result1 = calc.add(num1, num2, num3);
+        int result2 = calc.add(num1, num2);
+
+        System.out.println(result1);
+        System.out.println(result2);
+    }
+}
 ```
 <br>
 
