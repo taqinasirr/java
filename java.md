@@ -32,10 +32,10 @@ java = strongly typed language
 data type
 * primitive
    1. int
-      * byte   - 1 byte
-      * short  - 2 bytes
-      * int    - 4 bytes
-      * long   - 8 bytes
+      * byte   - 1 byte  `byte b = 127;`
+      * short  - 2 bytes `short s = 558;` 
+      * int    - 4 bytes 
+      * long   - 8 bytes `long l = 5854l;`
    3. float  
       * double  - `double num = 1.5;`
       * float   - `float num = 1.5f;`
