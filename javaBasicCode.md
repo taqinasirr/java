@@ -212,6 +212,8 @@ class Demo
         System.out.println(result2);
     }
 }
+//6
+//4
 ```
 <br>
 
