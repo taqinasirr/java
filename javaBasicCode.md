@@ -217,9 +217,37 @@ class Demo
 ```
 <br>
 
+array
+```java
+    public static void main(String a[])
+    {
+        int nums[] = {3,7,2};
+        nums[1] = 6;
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println(nums[i]);
+        }
+    }
+//3
+//6
+//2
+```
 
 ```java
+    public static void main(String a[])
+    {
+        int nums[] = new int[4];
+        nums[0] = 3;
+        nums[1] = 6;
+        nums[2] = 2;
 
+        for (int i = 0; i < 3; i++) {
+            System.out.println(nums[i]);
+        }
+    }
+//3
+//6
+//2
 ```
 <br>
 
@@ -240,5 +268,126 @@ class Demo
 
 ```
 <br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
+
+```java
+
+```
+<br>
+
+
 
 
