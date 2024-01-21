@@ -249,11 +249,25 @@ array
 //6
 //2
 ```
-<br>
-
 
 ```java
+        int nums[][] = new int[3][4];
 
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 4; j++) {
+                nums[i][j] = (int) (Math.random() * 10);
+            }
+        }
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 4; j++) {
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
+//4 2 7 2
+//0 0 2 7
+//9 3 4 1
 ```
 <br>
 
