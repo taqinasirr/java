@@ -37,11 +37,13 @@ data type
       * short  - 2 bytes
       * int    - 4 bytes
       * long   - 8 bytes
-   3. float
-      *double
-      *float
-   5. char
-   6. bool
+   3. float  
+      * double  - `double num = 1.5;`
+      * float   - `float num = 1.5f`
+   5. char     - `2bytes   char c = 'k';`
+   8. boolean
+      * true or false shj. x pake 0 utk false 1 utk true
+      * `bool b = true;`
 
 <br>
 
