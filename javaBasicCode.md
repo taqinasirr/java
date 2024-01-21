@@ -249,7 +249,7 @@ array
 //6
 //2
 ```
-
+multi dimensional array
 ```java
         int nums[][] = new int[3][4];
 
