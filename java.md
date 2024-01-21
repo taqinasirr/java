@@ -27,8 +27,7 @@ java is platform independent ( u can run java program on any machine)
 * javac is only for developlemt purpose
 * rumusan - dlm JDK ada JRE.  dlm JRE ada JVM
 
-java
-* strongly typed language
+java = strongly typed language
 
 data type
 * primitive
