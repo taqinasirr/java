@@ -52,4 +52,8 @@ data type
 
 ![JDK JRE JVM](https://github.com/taqinasirr/java/assets/21170527/24b131f6-3593-4789-bfb9-a327aeaccb2d)
 
+<br>
+
+exception = runtime error
+
 
