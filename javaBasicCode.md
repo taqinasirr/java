@@ -313,10 +313,39 @@ class Demo
 ```
 <br>
 
-
+Enhanced for loop (macam foreach)
 
 ```java
+class Student
+{
+    String name;
+    int marks;
+}
 
+class Demo
+{
+    public static void main(String a[])
+    {
+        Student s1 = new Student();
+        s1.name = "abu";
+        s1.marks = 78;
+
+        Student s2 = new Student();
+        s2.name = "ali";
+        s2.marks = 88;
+
+        Student students[] = new Student[2];
+        students[0] = s1;
+        students[1] = s2;
+
+        for(Student stud : students)
+        {
+            System.out.println(stud.name + " : " +stud.marks);
+        }
+    }
+}
+//abu : 78
+//ali : 88
 ```
 <br>
 
