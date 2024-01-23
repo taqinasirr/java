@@ -54,6 +54,11 @@ data type
 
 <br>
 
-exception = runtime error
+exception = runtime error = error that happen at runtime. masa compile x dak error
+
+property
+* .length
+* 
+
 
 
