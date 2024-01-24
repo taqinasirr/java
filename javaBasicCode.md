@@ -531,10 +531,30 @@ class Student {
 ```
 <br>
 
-
+static block execute sekali shj  
+object (aka instance) ada dua? instance block execute 2 kali
 
 ```java
+class Student {
 
+    static {
+        System.out.println("ini static block");
+    }
+
+    {
+        System.out.println("ini instance block");
+    }
+
+    public static void main(String a[])
+    {
+        new Student();
+        new Student();
+        
+    }
+}
+//ini static block
+//ini instance block
+//ini instance block
 ```
 <br>
 
