@@ -485,9 +485,28 @@ dia sama mcm `String name`.  name adalah object class String
 <br>
 
 
+bila kita run java code, JVM run main method & load class yg berisi main method tu & identify variables, methods then execute them in order.
+
+cth kat bwh ni
+* static block belongs to class Student
+* class Student mengandungi main method, so class tu akan di load sekali shj
+* disebabkan static block tu belongs to class Student, dia akan di execute sekali
+* so kita dapat 'ini static block' walaupun main method empty
+
 
 ```java
+class Student {
 
+    static {
+        System.out.println("ini static block");
+    }
+
+    public static void main(String a[])
+    {
+        
+    }
+}
+//ini static block
 ```
 <br>
 
