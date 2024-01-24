@@ -368,10 +368,33 @@ class Demo
 ```
 <br>
 
+once object dah di create, value dia tetap ada kat memory  
 
+`String name = "ali";`   
+ `name = name + " abu";`  
+
+ cth kat  memory
+ * "ali"        adress dia 102
+ * "ali abu"    adress dia 103
+
+   maksudnya name tu, asalnya kita assign dia ke adress 102  
+   pastu kita assign dia ke adress 103  
+   adress 102 tu tak padam pun, masih ada lagi.  
+ 
 
 ```java
+class Demo
+{
+    public static void main(String a[])
+    {
+        String name = "ali";
 
+        name = name + " abu";
+
+        System.out.print("Hello " + name);
+    }
+}
+//Hello ali abu
 ```
 <br>
 
