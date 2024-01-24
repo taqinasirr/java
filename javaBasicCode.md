@@ -482,6 +482,27 @@ dia sama mcm `String name`.  name adalah object class String
         System.out.println(obj.brand + " : " + obj.price + " : " + name);
     }
 ```
+
+<br>
+
+`static block vs instance block`    
+static block - belongs to a class     
+instance block - belong to an object    
+
+```java
+
+//ni static block
+
+        static{
+
+        }
+
+//ni instance block
+
+        {
+
+        }
+```
 <br>
 
 
