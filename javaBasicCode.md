@@ -350,9 +350,21 @@ class Demo
 <br>
 
 
-
+String adalah class  
+bila create variable, sebenarnya kita create object  
+tak perlu taip `String name = new String("ali");`  
+just taip `String name = "ali";`
 ```java
+class Demo
+{
+    public static void main(String a[])
+    {
+        String name = "ali";
 
+        System.out.print("Hello " + name);
+    }
+}
+//Hello ali
 ```
 <br>
 
