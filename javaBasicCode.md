@@ -351,7 +351,7 @@ class Demo
 
 
 String adalah class  
-bila create variable, sebenarnya kita create object  
+bila create variable jenis string, sebenarnya kita create object  
 tak perlu taip `String name = new String("ali");`  
 just taip `String name = "ali";`
 ```java
