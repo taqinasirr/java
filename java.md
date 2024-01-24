@@ -61,9 +61,10 @@ property
 * 
 
 <br>
-String          - non modifiable  
-StringBuilder   - modifiable.   for string manipulation. cth  reversing a string using reverse(),  inserting a character using insert()  
-StringBuffer    - thread safe   rarely used
+
+String          - non modifiable   
+StringBuilder   - modifiable.   for string manipulation. cth  reversing a string using reverse(),  inserting a character using insert()    
+StringBuffer    - thread safe.   rarely used
 
 
 
