@@ -399,9 +399,40 @@ class Demo
 <br>
 
 
-
+static variable = shared by different object
 ```java
+class Mobile
+{
+    String brand;
+    int price;
+    static String name;
 
+    public void show() {
+        System.out.println(brand + " : " + price + " : " + name);
+    }
+}
+
+class Demo
+{
+    public static void main(String a[])
+    {
+        Mobile obj1 = new Mobile();
+        obj1.brand = "Apple";
+        obj1.price = 4000;
+
+        Mobile obj2 = new Mobile();
+        obj2.brand = "Samseng";
+        obj2.price = 9000;
+
+
+        Mobile.name = "smartphone";
+
+        obj1.show();
+        obj2.show();
+    }
+}
+//Apple : 4000 : smartphone
+//Samseng : 9000 : smartphone
 ```
 <br>
 
