@@ -474,9 +474,12 @@ class Demo
 <br>
 
 
-
+datatype obj adalah class Mobile.  
+maksudnya obj adalah objek class Mobile.
 ```java
-
+    public static void show(Mobile obj) {
+        System.out.println(obj.brand + " : " + obj.price + " : " + name);
+    }
 ```
 <br>
 
