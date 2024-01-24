@@ -436,10 +436,40 @@ class Demo
 ```
 <br>
 
-
+static method
 
 ```java
+class Mobile
+{
+    String brand;
+    int price;
+    static String name;
 
+    public static void show(Mobile obj) {
+        System.out.println(obj.brand + " : " + obj.price + " : " + name);
+    }
+}
+
+class Demo
+{
+    public static void main(String a[])
+    {
+        Mobile obj1 = new Mobile();
+        obj1.brand = "Apple";
+        obj1.price = 4000;
+
+        Mobile obj2 = new Mobile();
+        obj2.brand = "Samseng";
+        obj2.price = 9000;
+
+        Mobile.name = "smartphone";
+
+        Mobile.show(obj1);
+        Mobile.show(obj2);
+    }
+}
+//Apple : 4000 : smartphone
+//Samseng : 9000 : smartphone
 ```
 <br>
 
