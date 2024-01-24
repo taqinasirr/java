@@ -61,4 +61,9 @@ property
 * 
 
 
+string          - non modifiable  
+stringbuilder   - modifiable.   for string manipulation. cth  reversing a string using reverse(),  inserting a character using insert()  
+stringbuffer    - thread safe   rarely used
+
+
 
