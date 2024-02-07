@@ -68,8 +68,9 @@ StringBuffer    - thread safe.   rarely used
 
 <br>
 
-encapsulation - privatekan  properties dlm class. class tu shj boleh access properties tu.
-
+encapsulation
+* privatekan  properties & methods. class tu shj boleh access properties & methods tu directly.
+* class lain boleh access properties & methods tu, tapi bukan directly
 
 
 
