@@ -66,6 +66,10 @@ String          - non modifiable
 StringBuilder   - modifiable.   for string manipulation. cth  reversing a string using reverse(),  inserting a character using insert()    
 StringBuffer    - thread safe.   rarely used
 
+<br>
+
+encapsulation - privatekan  properties dlm class. class tu shj boleh access properties tu.
+
 
 
 
