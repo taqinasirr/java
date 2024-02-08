@@ -559,9 +559,32 @@ class Student {
 <br>
 
 
-
+encapsulation
 ```java
+class Human
+{
+    private int age = 11;
+    private String name = "abu";
 
+    public int getAge(){
+        return age;
+    }
+
+    public String getName(){
+        return name;
+    }
+}
+
+class Demo
+{
+    public static void main(String a[])
+    {
+        Human obj = new Human();
+
+        System.out.println(obj.getName() + " : " + obj.getAge());
+
+    }
+}
 ```
 <br>
 
