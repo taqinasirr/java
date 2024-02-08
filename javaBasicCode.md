@@ -585,13 +585,46 @@ class Demo
 
     }
 }
+// abu : 11
 ```
-<br>
 
 
 
 ```java
+class Human {
+    private String name;
+    private int age;
 
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String n){
+        name = n;
+    }
+
+    public int  getAge(){
+        return age;
+    }
+
+    public void setAge(int a){
+        age = a;
+    }
+}
+
+class Demo{
+
+   
+    public static void main(String a[])
+    {
+        Human obj = new Human();
+        obj.setAge(30);
+        obj.setName("ali");
+
+        System.out.println(obj.getName() + " : " + obj.getAge());
+    }
+}
+//ali : 30
 ```
 <br>
 
