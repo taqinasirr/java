@@ -629,7 +629,7 @@ class Demo{
 
 
 <br>
-setter and getter, just taip ni:
+getter and setter, just taip ni:
 
 ```java
     private String name;
