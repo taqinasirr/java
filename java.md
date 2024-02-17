@@ -72,7 +72,10 @@ encapsulation
 * privatekan  properties. class tu shj boleh access properties tu directly.
 * class lain nak access properties tu, kena access melalui method class tu yg return value properties yg privatet tu.
 
-
+constructor
+* method yg nama dia sama nama class
+* everytime kita create object, constructor method run tanpa di call.
+* if create 2 objek, 2 kali lah constructor method di run
 
 
 
