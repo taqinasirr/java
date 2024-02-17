@@ -76,6 +76,10 @@ constructor
 * method yg nama dia sama nama class
 * everytime kita create object, constructor method run tanpa di call.
 * if create 2 objek, 2 kali lah constructor method di run
+* constructor tu boleh method overloading
+  * satu xdak parameter (default constructor)
+  * satu ada parameter (parameterized constructor)
+* right click, source action, generate constructors
 
 
 
