@@ -626,12 +626,33 @@ class Demo{
 }
 //ali : 30
 ```
+
+
 <br>
-
-
+setter and getter, just taip ni:
 
 ```java
-
+    private String name;
+    private int age;
+```
+pastu rigt click, source action, generate getters and setters.  
+nanti jadi gini:  
+```java
+    private String name;
+    private int age;
+    
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
 ```
 <br>
 
