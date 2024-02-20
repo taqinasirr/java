@@ -657,9 +657,12 @@ nanti jadi gini:
 <br>
 
 
-
+masa create new object, belah kanan tu adalah constructor method.  
+kalu xdak parameter, dia adalah default constructor  
+kalu adap parameter, dia adalah parameterized constructor  
 ```java
-
+Human obj = new Human();
+Human obj = new Human(5);
 ```
 <br>
 
