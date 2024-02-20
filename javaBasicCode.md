@@ -666,17 +666,75 @@ Human obj = new Human(5);
 ```
 <br>
 
-
+tiap constructor ada method super()
+kita takyah buh method tu pun dia memang dah ada
 
 ```java
+class A {
+    public A(){
+        System.out.println("in A");
+    }
 
+    public A(int n){
+        System.out.println("in A iniA");
+    }
+}
+
+class B extends A {
+    public B(){
+        System.out.println("in B");
+    }
+
+    public B(int n){
+        System.out.println("in B iniB");
+    }
+}
+
+
+class Demo1{
+    public static void main(String a[])
+    {
+        B obj = new B(5);
+    }
+}
+// in A
+// in B iniB
 ```
-<br>
+
 
 
 
 ```java
+class A {
+    public A(){
+        System.out.println("in A");
+    }
 
+    public A(int n){
+        System.out.println("in A iniA");
+    }
+}
+
+class B extends A {
+    public B(){
+        System.out.println("in B");
+    }
+
+    public B(int n){
+        super(n);
+        System.out.println("in B iniB");
+    }
+}
+
+
+class Demo1{
+    public static void main(String a[])
+    {
+        B obj = new B(5);
+    }
+}
+// in A iniA
+// in B iniB
 ```
 <br>
 
