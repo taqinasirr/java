@@ -666,7 +666,7 @@ Human obj = new Human(5);
 ```
 <br>
 
-tiap constructor ada method super()
+tiap constructor ada method super()  
 kita takyah buh method tu pun dia memang dah ada
 
 ```java
@@ -701,7 +701,7 @@ class Demo1{
 // in B iniB
 ```
 
-
+kena buh parameter lah kat super() if nak pakai parameterized constructor kat class super
 
 
 ```java
