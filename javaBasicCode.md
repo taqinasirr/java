@@ -738,27 +738,217 @@ class Demo1{
 ```
 <br>
 
+**inheritence**
 
+
+Calc.java
+```java
+public class Calc {
+    public int add(int n1, int n2){
+        return n1 + n2;
+    }
+
+    public int sub(int n1, int n2){
+        return n1 - n2;
+    }
+}
+
+```
+AdvanceCalc.java
+
+
+
+```java
+public class AdvanceCalc extends Calc{
+    public int multi(int n1, int n2){
+        return n1*n2;
+    }
+
+    public int div(int n1, int n2){
+        return n1/n2;
+    }
+}
+```
+
+Demo.java
+
+
+```java
+public class Demo{
+    public static void main(String a[])
+    {
+       AdvanceCalc obj = new AdvanceCalc();
+       int r1 = obj.add(6,2);
+       int r2 = obj.sub(6,2);
+       int r3 = obj.multi(6,2);
+       int r4 = obj.div(6,2);
+
+       System.out.println(r1 + " " + r2 + " " + r3 + " " + r4);
+    }
+}
+// 8 4 12 3
+```
+
+
+<br>
 
 ```java
 
 ```
+
+
 <br>
-
-
 
 ```java
 
 ```
+
+
 <br>
-
-
 
 ```java
 
 ```
+
+
 <br>
 
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
+
+
+<br>
+
+```java
+
+```
 
 
 
