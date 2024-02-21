@@ -81,6 +81,11 @@ constructor
   * satu ada parameter (parameterized constructor)
 * right click, source action, generate constructors
 
+inheritence
+* parent -> child   or   super class -> sub class
+
+  
+
 
 
 
