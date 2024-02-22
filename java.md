@@ -84,6 +84,10 @@ constructor
 inheritence
 * parent -> child   or   super class -> sub class
 
+multi level inheritence  - A super kpd B, B super kpd C
+
+
+
 
   
 
