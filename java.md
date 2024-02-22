@@ -86,7 +86,7 @@ inheritence
 
 multi level inheritence  - A super kpd B, B super kpd C.   C inherit methods dari A dan B
 
-
+multiple inheritence java x support. cth  A super kpd C. B juga super kpd C.  benda ni takdak sebab cth kat A dgn B ada method show() java taktau nak pilih mana satu.
 
 
   
