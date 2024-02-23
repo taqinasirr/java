@@ -96,6 +96,7 @@ method overriding
 
 
 package
+* package = folder
 * bubuh classes berkaitan dlm folder (classes tu dlm java file ler)
 * cth folder nama haiwan dlm dia ada ayam.java  dgn lembu.java
 * java file tu, atas sekali kena letak `package haiwan;`
