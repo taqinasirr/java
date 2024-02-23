@@ -100,7 +100,8 @@ package
 * bubuh classes berkaitan dlm folder (classes tu dlm java file ler)
 * cth folder nama haiwan dlm dia ada ayam.java  dgn lembu.java
 * java file tu, atas sekali kena letak `package haiwan;`
-* main method ada kat luar package. if kat main method nak pakai class dlm ayam.java, kena `import haiwan.ayam' 
+* main method ada kat luar package. if kat main method nak pakai class dlm ayam.java, kena `import haiwan.ayam'
+* `import haiwan.*;` maksudnya import semua java file dlm package haiwan.
   
 
 
