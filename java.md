@@ -94,8 +94,12 @@ method overriding
 * B obj = new B();
 * bila obj.show()  dia akan pakai show() yg kat class B bukan yg kat class A
 
-  
 
+package
+* bubuh classes berkaitan dlm folder (classes tu dlm java file ler)
+* cth folder nama haiwan dlm dia ada ayam.java  dgn lembu.java
+* java file tu, atas sekali kena letak `package haiwan;`
+* main method ada kat luar package. if kat main method nak pakai class dlm ayam.java, kena `import haiwan.ayam' 
   
 
 
