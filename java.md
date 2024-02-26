@@ -108,7 +108,10 @@ polymorphism
 * compile time polymorphism - utk method overloading (method nama sama, parameter tak sama, masa compile dah tahu nak pake yg mana satu)
 * run time polymorphism - utk method overridding (method parent & child nama sama, parameter sama, masa runtime baru tahu nak pake yg mana satu)
 
-`final int num = 8;`  final tu sama mcm CONST
+final keyword
+1. final utk var  cth `final int num = 8;`  //final tu sama mcm CONST
+2. final utk method //child xleh override method parent. cth if kat parent ada show(), kat child xleh ada show()
+3. final utk class //class tu tkleh di extend/ inherit aka takleh dijadikan parent class
 
 
   
