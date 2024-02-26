@@ -114,6 +114,8 @@ final keyword
 3. final utk class //class tu tkleh di extend/ inherit aka takleh dijadikan parent class
 
 
+
+
   
 
 
