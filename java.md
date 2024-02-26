@@ -102,6 +102,12 @@ package
 * java file tu, atas sekali kena letak `package haiwan;`
 * main method ada kat luar package. if kat main method nak pakai class dlm ayam.java, kena `import haiwan.ayam'
 * `import haiwan.*;` maksudnya import semua java file dlm package haiwan.
+
+polymorphism
+* poly = many    morphism = behaviour
+* compile time polymorphism - utk method overloading (method nama sama, parameter tak sama, masa compile dah tahu nak pake yg mana satu)
+* run time polymorphism - utk method overridding (method parent & child nama sama, parameter sama, masa runtime baru tahu nak pake yg mana satu)
+* 
   
 
 
