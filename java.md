@@ -107,7 +107,10 @@ polymorphism
 * poly = many    morphism = behaviour
 * compile time polymorphism - utk method overloading (method nama sama, parameter tak sama, masa compile dah tahu nak pake yg mana satu)
 * run time polymorphism - utk method overridding (method parent & child nama sama, parameter sama, masa runtime baru tahu nak pake yg mana satu)
-* 
+
+`final int num = 8;`  final tu sama mcm CONST
+
+
   
 
 
