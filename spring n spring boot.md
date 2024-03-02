@@ -6,3 +6,4 @@ Spring boot
 1. eliminates the boilerplate configurations required for setting up a Spring application.
 2. make development, testing, and deployment more convenient.
 * provides a number of starter dependencies for different Spring modules
+* The Spring Boot Framework is a great choice for banking microservices because it provides a robust architecture and the ability to easily create and deploy services. It also takes advantage of the Java programming language, which is highly reliable and secure
