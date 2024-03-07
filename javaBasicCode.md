@@ -805,15 +805,16 @@ System.out.println(i);
 
 <br>
 
+autoboxing - jenis primitive tukar jadi jenis reference (object)
 ```java
-
+int num = 7;
+Integer num1 = num;
 ```
 
-
-<br>
+auto-unboxing jenis reference tukar jadi jenis primitive
 
 ```java
-
+int num2 = num1;
 ```
 
 
