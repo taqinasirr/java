@@ -113,6 +113,9 @@ final keyword
 2. final utk method //child xleh override method parent. cth if kat parent ada show(), kat child xleh ada show()
 3. final utk class //class tu tkleh di extend/ inherit aka takleh dijadikan parent class
 
+integer = wrapper class.
+* dia ada method yg boleh dipakai
+* cth  int num = Integer.parseInt("12");
 
 
 
