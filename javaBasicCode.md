@@ -792,7 +792,13 @@ public class Demo{
 
 <br>
 
+type casting = convert data type
 ```java
+
+double d = 4.5;
+int i = (int) d;
+System.out.println(i);
+// 4
 
 ```
 
